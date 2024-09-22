@@ -4,6 +4,7 @@
   --text-color: white;
   --button: blue;
   --button2: orange;
+  --button2-var: rgba(255, 166, 0, 0.941);
 }
 
 * {
@@ -66,4 +67,8 @@ button.equals_to {
 
 #special {
   background-color: var(--button2);
+}
+
+#special:hover {
+  background-color: var(--button2-var);
 }
