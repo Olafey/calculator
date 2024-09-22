@@ -5,6 +5,7 @@
   --sec-bg-color: black;
   --text-color: white;
   --button: blue;
+  --button2: orange;
 }
 
 * {
@@ -25,7 +26,7 @@
 }
 
 .calculator_content {
-  height: 300px;
+  height: min-content;
   border-radius: 5px;
   background-color: var(--sec-bg-color);
   padding: 20px;
@@ -33,6 +34,7 @@
 }
 
 input {
+  width: 235px;
   background: transparent;
   border-radius: 5px;
   text-align: right;
@@ -40,5 +42,15 @@ input {
 }
 
 input::placeholder {
-  color: var(--text-color);
+  color: var(--bg-color);
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+
+button.equals_to {
+  width: 110px;
 }
