@@ -35,4 +35,10 @@
 input {
   background: transparent;
   border-radius: 5px;
+  text-align: right;
+  color: var(--text-color);
+}
+
+input::placeholder {
+  color: var(--text-color);
 }
