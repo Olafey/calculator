@@ -2,7 +2,7 @@
   --bg-color: grey;
   --sec-bg-color: black;
   --text-color: white;
-  --button: blue;
+  --button: rgb(62, 62, 182);
   --button2: orange;
   --button2-var: rgba(255, 166, 0, 0.941);
 }
@@ -61,8 +61,12 @@ button:hover {
   background-color: var(--bg-color);
 }
 
-button.equals_to {
-  width: 110px;
+#spec {
+  background-color: var(--button);
+}
+
+#spec:hover {
+  background-color: rgb(9, 9, 153);
 }
 
 #special {

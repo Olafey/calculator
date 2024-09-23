@@ -15,7 +15,14 @@
   <body>
     <div class="calculator">
       <div class="calculator_content">
-        <input type="text" name="" id="inputText" placeholder="0" />
+        <input type="text" name="" id="inputText" placeholder="0" readonly />
+        <div class="input_button">
+          <button id="spec">MC</button>
+          <button id="spec">MR</button>
+          <button id="spec">M+</button>
+          <button id="spec">M-</button>
+        </div>
+
         <div class="input_button">
           <button id="special">C</button>
           <button id="special">AC</button>
@@ -31,8 +38,8 @@
         </div>
 
         <div class="input_button">
-          <button>6</button>
-          <button>5</button>
+          <button id="input" onclick="but()">6</button>
+          <button id="input" onclick="but()">5</button>
           <button>4</button>
           <button>-</button>
         </div>
@@ -47,10 +54,13 @@
         <div class="input_button">
           <button>1</button>
           <button>0</button>
-          <button class="equals_to" id="equals_to" onclick="equals()">=</button>
+          <button>.</button>
+          <button class="equals_to" id="spec" onclick="equals()">=</button>
         </div>
       </div>
     </div>
     <script src="./js/script.js"></script>
+
+    <p id="demo" onclick="oops()">Hello World!!!</p>
   </body>
 </html>

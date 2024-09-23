@@ -1,5 +1,14 @@
-let input = document.getElementsByClassName("input_button").value;
-let output = (document.querySelector("button").innerHTML = output.value);
+function oops() {
+  let newDemo = document.getElementById("demo");
+  newDemo.innerHTML = "OOPS!!!";
+}
 
+let inputText = document.getElementById("inputText");
+function but() {
+  let input = document.getElementById("input");
+  let outcome = input.value;
+  console.log(outcome);
 
-function
+  inputText.innerText = outcome;
+}
+but();
